@@ -1,0 +1,76 @@
+[General]
+Type=Multi
+DefaultCfg=default.cfg
+ParameterFile=webtour_02_cashier_both_ways.prm
+GlobalParameterFile=
+NewFunctionHeader=1
+RunType=cci
+ActionLogicExt=action_logic
+LastActiveAction=Action
+MajorVersion=12
+MinorVersion=53
+ActiveTypes=QTWeb
+GenerateTypes=QTWeb
+AdditionalTypes=QTWeb
+DevelopTool=Vugen
+LastModifyVer=12.53.0.1203
+ParamLeftBrace={
+ParamRightBrace=}
+ScriptLanguage=C
+LastCodeGenerationVer=12.53.0.1203
+DisableRegenerate=0
+Description=
+ScriptLocale=ru-RU
+[Actions]
+vuser_init=vuser_init.c
+main_action=main_action.c
+check=check.c
+printing_parametres=printing_parametres.c
+vuser_end=vuser_end.c
+[RunLogicFiles]
+Default Profile=default.usp
+[VuserProfiles]
+Profiles=Default Profile
+[CfgFiles]
+Default Profile=default.cfg
+[ExtraFiles]
+globals.h=
+[Modified Actions]
+vuser_init=1
+main_action=1
+check=1
+printing_parametres=1
+vuser_end=1
+[Recorded Actions]
+vuser_init=0
+main_action=0
+check=1
+printing_parametres=0
+vuser_end=0
+[Replayed Actions]
+vuser_init=1
+main_action=1
+check=1
+printing_parametres=1
+vuser_end=1
+[Interpreters]
+vuser_init=cci
+main_action=cci
+check=cci
+printing_parametres=cci
+vuser_end=cci
+[TransactionsOrder]
+Order="webtour_UC02_покупка_билета_в_одну_сторону"
+[StateManagement]
+LastReplayStatus=1
+[ActiveReplay]
+LastReplayedRunName=result1
+ActiveRunName=result1
+[Transactions]
+webtour_UC02_покупка_билета_в_одну_сторону=
+[ParameterSimulation]
+NumVusers=4
+IsDurationIndefinite=0
+NumIterationsUntilCompletion=7
+IterationFromRTS=0
+NumIterationIndefinitely=1
