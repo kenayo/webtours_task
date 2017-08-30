@@ -1,3 +1,0 @@
-"advanceDiscount=0&depart=Sydney&departDate=09%2F01%2F17&arrive=London&returnDate=09%2F04%2F17&"
-"numPassengers=1&roundtrip=on&seatPref=Window&seatType=First&.cgifields=roundtrip&.cgifields=se"
-"atType&.cgifields=seatPref&findFlights.x=79&findFlights.y=7"

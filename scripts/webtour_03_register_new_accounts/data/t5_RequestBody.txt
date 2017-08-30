@@ -1,2 +1,0 @@
-"userSession=121837.320858647zczHAAHpVQVzzzzHDHzAcpAtDVf&username=hello&password=darkness&JSFor"
-"mSubmit=off&login.x=0&login.y=0"

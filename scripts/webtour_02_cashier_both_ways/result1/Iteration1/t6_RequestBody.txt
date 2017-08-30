@@ -1,3 +1,0 @@
-"advanceDiscount=0&depart=Los+Angeles&departDate=09%2F03%2F17&arrive=Zurich&returnDate=09%2F06%"
-"2F17&numPassengers=1&roundtrip=on&seatPref=Aisle&seatType=First&.cgifields=roundtrip&.cgifield"
-"s=seatType&.cgifields=seatPref&findFlights.x=79&findFlights.y=7"
