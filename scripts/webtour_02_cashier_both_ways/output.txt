@@ -1,0 +1,213 @@
+Virtual User Script started at : 30.08.2017 11:47:34
+Starting action vuser_init.
+Web Turbo Replay of LoadRunner 12.53.0 (авг 30 2017 19:13:20)  	[MsgId: MMSG-27143]
+Run mode: HTML  	[MsgId: MMSG-26993]
+Replay user agent: Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko  	[MsgId: MMSG-26988]
+vuser_init.c(12): Notify: Transaction "webtour_02_загрузка_страницы" started.
+vuser_init.c(13): Start transaction "webtour_02_загрузка_страницы" at: 11:47:34
+../../data/libs/login.c(2): web_reg_save_param_regexp started  	[MsgId: MMSG-26355]
+../../data/libs/login.c(2): Registering web_reg_save_param_regexp was successful  	[MsgId: MMSG-26390]
+../../data/libs/login.c(11): web_url("WebTours") started  	[MsgId: MMSG-26355]
+../../data/libs/login.c(11): Redirecting "http://localhost:1080/WebTours" (redirection depth is 0)  	[MsgId: MMSG-26694]
+../../data/libs/login.c(11): To location "http://localhost:1080/WebTours/"  	[MsgId: MMSG-26693]
+../../data/libs/login.c(11): Detected non-resource "http://localhost:1080/WebTours/header.html" in "http://localhost:1080/WebTours/"  	[MsgId: MMSG-26574]
+../../data/libs/login.c(11): Detected non-resource "http://localhost:1080/cgi-bin/welcome.pl?signOff=true" in "http://localhost:1080/WebTours/"  	[MsgId: MMSG-26574]
+../../data/libs/login.c(11): Found resource "http://localhost:1080/WebTours/images/hp_logo.png" in HTML "http://localhost:1080/WebTours/header.html"  	[MsgId: MMSG-26659]
+../../data/libs/login.c(11): Found resource "http://localhost:1080/WebTours/images/webtours.png" in HTML "http://localhost:1080/WebTours/header.html"  	[MsgId: MMSG-26659]
+../../data/libs/login.c(11): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+../../data/libs/login.c(11): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+../../data/libs/login.c(11): Found resource "http://localhost:1080/WebTours/images/mer_login.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+../../data/libs/login.c(11): web_url("WebTours") was successful, 10318 body bytes, 2683 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+../../data/libs/login.c(21): web_url("header.html") started  	[MsgId: MMSG-26355]
+../../data/libs/login.c(21): Found resource "http://localhost:1080/WebTours/images/hp_logo.png" in HTML "http://localhost:1080/WebTours/header.html"  	[MsgId: MMSG-26659]
+../../data/libs/login.c(21): Found resource "http://localhost:1080/WebTours/images/webtours.png" in HTML "http://localhost:1080/WebTours/header.html"  	[MsgId: MMSG-26659]
+../../data/libs/login.c(21): web_url("header.html") was successful, 5498 body bytes, 893 header bytes  	[MsgId: MMSG-26386]
+vuser_init.c(17): End transaction "webtour_02_загрузка_страницы" at: 11:47:34
+vuser_init.c(18): Notify: Transaction "webtour_02_загрузка_страницы" ended with a "Pass" status (Duration: 0.3728 Wasted Time: 0.1903).
+vuser_init.c(21): Notify: Transaction "webtour_02_авторизация" started.
+vuser_init.c(22): Start transaction "webtour_02_авторизация" at: 11:47:34
+../../data/libs/loginFP.c(1): web_submit_data("login.pl") started  	[MsgId: MMSG-26355]
+../../data/libs/loginFP.c(1): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home" in "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+../../data/libs/loginFP.c(1): Detected non-resource "http://localhost:1080/cgi-bin/login.pl?intro=true" in "http://localhost:1080/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
+../../data/libs/loginFP.c(1): Found resource "http://localhost:1080/WebTours/images/flights.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+../../data/libs/loginFP.c(1): Found resource "http://localhost:1080/WebTours/images/itinerary.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+../../data/libs/loginFP.c(1): Found resource "http://localhost:1080/WebTours/images/in_home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+../../data/libs/loginFP.c(1): Found resource "http://localhost:1080/WebTours/images/signoff.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
+../../data/libs/loginFP.c(1): web_submit_data("login.pl") was successful, 5779 body bytes, 2031 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+vuser_init.c(26): End transaction "webtour_02_авторизация" at: 11:47:35
+vuser_init.c(27): Notify: Transaction "webtour_02_авторизация" ended with a "Pass" status (Duration: 0.1864 Wasted Time: 0.0070).
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Warning -27077: The "vuser_init" section contains web function(s) when the "Simulate a new user on each iteration" Run-Time Setting is ON.  This may produce unpredictable results with multiple iterations  	[MsgId: MWAR-27077]
+Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
+Starting action main_action.
+main_action.c(7): Notify: Transaction "webtour_UC02_покупка_билета_в_одну_сторону" started.
+main_action.c(10): Notify: Transaction "webtour_02_01_выбор_рейса" started.
+main_action.c(11): Start transaction "webtour_02_01_выбор_рейса" at: 11:47:35
+main_action.c(13): web_url("Search Flights Button") started  	[MsgId: MMSG-26355]
+main_action.c(13): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights" in "http://localhost:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+main_action.c(13): Detected non-resource "http://localhost:1080/cgi-bin/reservations.pl?page=welcome" in "http://localhost:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+main_action.c(13): Found resource "http://localhost:1080/WebTours/images/in_flights.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+main_action.c(13): Found resource "http://localhost:1080/WebTours/images/itinerary.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+main_action.c(13): Found resource "http://localhost:1080/WebTours/images/home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+main_action.c(13): Found resource "http://localhost:1080/WebTours/images/signoff.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+main_action.c(13): Found resource "http://localhost:1080/WebTours/images/button_next.gif" in HTML "http://localhost:1080/cgi-bin/reservations.pl?page=welcome"  	[MsgId: MMSG-26659]
+main_action.c(13): web_url("Search Flights Button") was successful, 10000 body bytes, 2210 header bytes, 43 chunking overhead bytes  	[MsgId: MMSG-26385]
+main_action.c(22): End transaction "webtour_02_01_выбор_рейса" at: 11:47:35
+main_action.c(23): Notify: Transaction "webtour_02_01_выбор_рейса" ended with a "Pass" status (Duration: 0.2983 Wasted Time: 0.0106).
+main_action.c(45): web_reg_save_param started  	[MsgId: MMSG-26355]
+main_action.c(45): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+main_action.c(53): web_reg_save_param started  	[MsgId: MMSG-26355]
+main_action.c(53): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+main_action.c(61): Notify: Transaction "webtour_02_02_выбор_параметров_билета" started.
+main_action.c(62): Start transaction "webtour_02_02_выбор_параметров_билета" at: 11:47:35
+main_action.c(64): web_submit_data("reservations.pl") started  	[MsgId: MMSG-26355]
+main_action.c(64): Found resource "http://localhost:1080/WebTours/images/button_next.gif" in HTML "http://localhost:1080/cgi-bin/reservations.pl"  	[MsgId: MMSG-26659]
+main_action.c(64): web_submit_data("reservations.pl") was successful, 4340 body bytes, 552 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+main_action.c(88): End transaction "webtour_02_02_выбор_параметров_билета" at: 11:47:35
+main_action.c(89): Notify: Transaction "webtour_02_02_выбор_параметров_билета" ended with a "Pass" status (Duration: 0.2027 Wasted Time: 0.0028).
+main_action.c(96): Notify: Transaction "webtour_02_03_выбор_времени_вылета" started.
+main_action.c(97): Start transaction "webtour_02_03_выбор_времени_вылета" at: 11:47:35
+main_action.c(99): web_submit_data("reservations.pl_2") started  	[MsgId: MMSG-26355]
+main_action.c(99): Found resource "http://localhost:1080/WebTours/images/button_next.gif" in HTML "http://localhost:1080/cgi-bin/reservations.pl"  	[MsgId: MMSG-26659]
+main_action.c(99): web_submit_data("reservations.pl_2") was successful, 3472 body bytes, 552 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+main_action.c(118): End transaction "webtour_02_03_выбор_времени_вылета" at: 11:47:35
+main_action.c(119): Notify: Transaction "webtour_02_03_выбор_времени_вылета" ended with a "Pass" status (Duration: 0.2037 Wasted Time: 0.0024).
+main_action.c(122): Notify: Transaction "webtour_02_04_ввод_платежных_данных" started.
+main_action.c(123): Start transaction "webtour_02_04_ввод_платежных_данных" at: 11:47:35
+main_action.c(125): web_submit_data("reservations.pl_3") started  	[MsgId: MMSG-26355]
+main_action.c(125): Found resource "http://localhost:1080/WebTours/images/bookanother.gif" in HTML "http://localhost:1080/cgi-bin/reservations.pl"  	[MsgId: MMSG-26659]
+main_action.c(125): web_submit_data("reservations.pl_3") was successful, 3369 body bytes, 658 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+main_action.c(154): End transaction "webtour_02_04_ввод_платежных_данных" at: 11:47:35
+main_action.c(155): Notify: Transaction "webtour_02_04_ввод_платежных_данных" ended with a "Pass" status (Duration: 0.2125 Wasted Time: 0.0027).
+main_action.c(157): Notify: Transaction "webtour_UC02_покупка_билета_в_одну_сторону" ended with a "Pass" status (Duration: 0.9292 Wasted Time: 0.0184).
+Ending action main_action.
+Starting action check.
+check.c(8): web_reg_find started  	[MsgId: MMSG-26355]
+check.c(8): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+check.c(12): web_reg_find started  	[MsgId: MMSG-26355]
+check.c(12): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+check.c(16): web_url("Itinerary") started  	[MsgId: MMSG-26355]
+check.c(16): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary" in "http://localhost:1080/cgi-bin/welcome.pl?page=itinerary"  	[MsgId: MMSG-26574]
+check.c(16): Detected non-resource "http://localhost:1080/cgi-bin/itinerary.pl" in "http://localhost:1080/cgi-bin/welcome.pl?page=itinerary"  	[MsgId: MMSG-26574]
+check.c(16): Found resource "http://localhost:1080/WebTours/images/flights.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26659]
+check.c(16): Found resource "http://localhost:1080/WebTours/images/in_itinerary.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26659]
+check.c(16): Found resource "http://localhost:1080/WebTours/images/home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26659]
+check.c(16): Found resource "http://localhost:1080/WebTours/images/signoff.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26659]
+check.c(16): Found resource "http://localhost:1080/WebTours/images/cancelreservation.gif" in HTML "http://localhost:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26659]
+check.c(16): Found resource "http://localhost:1080/WebTours/images/cancelallreservations.gif" in HTML "http://localhost:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26659]
+check.c(16): Registered web_reg_find successful for "TextPfx=09/03/17" and "TextSfx= leaves Los Angeles  for Zurich." (count=2)  	[MsgId: MMSG-26363]
+check.c(16): Registered web_reg_find successful for "TextPfx=09/06/17" and "TextSfx= leaves Zurich  for Los Angeles." (count=2)  	[MsgId: MMSG-26363]
+check.c(16): web_url("Itinerary") was successful, 523434 body bytes, 2507 header bytes, 995 chunking overhead bytes  	[MsgId: MMSG-26385]
+Ending action check.
+Starting action printing_parametres.
+printing_parametres.c(3): userSession: 121837.412231673zczHAVVpiQVzzzzHDHzAcpAHVDf
+printing_parametres.c(4): outbound_flight: 393;615;09/03/17
+printing_parametres.c(5): outbound_flight: 930;649;09/06/17
+printing_parametres.c(6): first_name: Jojo
+printing_parametres.c(7): last_name: Bean
+printing_parametres.c(8): address: Moskow
+printing_parametres.c(9): credit_card_num: 1234567890
+printing_parametres.c(10): credit_card_exp_date: 12/21
+printing_parametres.c(11): seat_type: First
+printing_parametres.c(12): seat_pref: Aisle
+printing_parametres.c(13): url: http://localhost:1080/
+printing_parametres.c(14): depart_city: Los Angeles
+printing_parametres.c(15): depart_date: 09/03/17
+printing_parametres.c(16): arrive_city: Zurich
+printing_parametres.c(17): return_date: 09/06/17
+Ending action printing_parametres.
+Ending iteration 1.
+Starting iteration 2.
+Starting action main_action.
+main_action.c(7): Notify: Transaction "webtour_UC02_покупка_билета_в_одну_сторону" started.
+main_action.c(10): Notify: Transaction "webtour_02_01_выбор_рейса" started.
+main_action.c(11): Start transaction "webtour_02_01_выбор_рейса" at: 11:47:36
+main_action.c(13): web_url("Search Flights Button") started  	[MsgId: MMSG-26355]
+main_action.c(13): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights" in "http://localhost:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+main_action.c(13): Detected non-resource "http://localhost:1080/cgi-bin/reservations.pl?page=welcome" in "http://localhost:1080/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+main_action.c(13): Found resource "http://localhost:1080/WebTours/images/in_flights.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+main_action.c(13): Found resource "http://localhost:1080/WebTours/images/itinerary.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+main_action.c(13): Found resource "http://localhost:1080/WebTours/images/home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+main_action.c(13): Found resource "http://localhost:1080/WebTours/images/signoff.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+main_action.c(13): Found resource "http://localhost:1080/WebTours/images/button_next.gif" in HTML "http://localhost:1080/cgi-bin/reservations.pl?page=welcome"  	[MsgId: MMSG-26659]
+main_action.c(13): web_url("Search Flights Button") was successful, 10000 body bytes, 2216 header bytes, 43 chunking overhead bytes  	[MsgId: MMSG-26385]
+main_action.c(22): End transaction "webtour_02_01_выбор_рейса" at: 11:47:36
+main_action.c(23): Notify: Transaction "webtour_02_01_выбор_рейса" ended with a "Pass" status (Duration: 0.2885 Wasted Time: 0.0084).
+main_action.c(45): web_reg_save_param started  	[MsgId: MMSG-26355]
+main_action.c(45): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+main_action.c(53): web_reg_save_param started  	[MsgId: MMSG-26355]
+main_action.c(53): Registering web_reg_save_param was successful  	[MsgId: MMSG-26390]
+main_action.c(61): Notify: Transaction "webtour_02_02_выбор_параметров_билета" started.
+main_action.c(62): Start transaction "webtour_02_02_выбор_параметров_билета" at: 11:47:36
+main_action.c(64): web_submit_data("reservations.pl") started  	[MsgId: MMSG-26355]
+main_action.c(64): Found resource "http://localhost:1080/WebTours/images/button_next.gif" in HTML "http://localhost:1080/cgi-bin/reservations.pl"  	[MsgId: MMSG-26659]
+main_action.c(64): web_submit_data("reservations.pl") was successful, 4337 body bytes, 552 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+main_action.c(88): End transaction "webtour_02_02_выбор_параметров_билета" at: 11:47:36
+main_action.c(89): Notify: Transaction "webtour_02_02_выбор_параметров_билета" ended with a "Pass" status (Duration: 0.1842 Wasted Time: 0.0037).
+main_action.c(96): Notify: Transaction "webtour_02_03_выбор_времени_вылета" started.
+main_action.c(97): Start transaction "webtour_02_03_выбор_времени_вылета" at: 11:47:36
+main_action.c(99): web_submit_data("reservations.pl_2") started  	[MsgId: MMSG-26355]
+main_action.c(99): Found resource "http://localhost:1080/WebTours/images/button_next.gif" in HTML "http://localhost:1080/cgi-bin/reservations.pl"  	[MsgId: MMSG-26659]
+main_action.c(99): web_submit_data("reservations.pl_2") was successful, 3475 body bytes, 552 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+main_action.c(118): End transaction "webtour_02_03_выбор_времени_вылета" at: 11:47:37
+main_action.c(119): Notify: Transaction "webtour_02_03_выбор_времени_вылета" ended with a "Pass" status (Duration: 0.1991 Wasted Time: 0.0032).
+main_action.c(122): Notify: Transaction "webtour_02_04_ввод_платежных_данных" started.
+main_action.c(123): Start transaction "webtour_02_04_ввод_платежных_данных" at: 11:47:37
+main_action.c(125): web_submit_data("reservations.pl_3") started  	[MsgId: MMSG-26355]
+main_action.c(125): Found resource "http://localhost:1080/WebTours/images/bookanother.gif" in HTML "http://localhost:1080/cgi-bin/reservations.pl"  	[MsgId: MMSG-26659]
+main_action.c(125): web_submit_data("reservations.pl_3") was successful, 3349 body bytes, 658 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+main_action.c(154): End transaction "webtour_02_04_ввод_платежных_данных" at: 11:47:37
+main_action.c(155): Notify: Transaction "webtour_02_04_ввод_платежных_данных" ended with a "Pass" status (Duration: 0.1993 Wasted Time: 0.0032).
+main_action.c(157): Notify: Transaction "webtour_UC02_покупка_билета_в_одну_сторону" ended with a "Pass" status (Duration: 0.8803 Wasted Time: 0.0186).
+Ending action main_action.
+Starting action check.
+check.c(8): web_reg_find started  	[MsgId: MMSG-26355]
+check.c(8): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+check.c(12): web_reg_find started  	[MsgId: MMSG-26355]
+check.c(12): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
+check.c(16): web_url("Itinerary") started  	[MsgId: MMSG-26355]
+check.c(16): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary" in "http://localhost:1080/cgi-bin/welcome.pl?page=itinerary"  	[MsgId: MMSG-26574]
+check.c(16): Detected non-resource "http://localhost:1080/cgi-bin/itinerary.pl" in "http://localhost:1080/cgi-bin/welcome.pl?page=itinerary"  	[MsgId: MMSG-26574]
+check.c(16): Found resource "http://localhost:1080/WebTours/images/flights.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26659]
+check.c(16): Found resource "http://localhost:1080/WebTours/images/in_itinerary.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26659]
+check.c(16): Found resource "http://localhost:1080/WebTours/images/home.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26659]
+check.c(16): Found resource "http://localhost:1080/WebTours/images/signoff.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26659]
+check.c(16): Found resource "http://localhost:1080/WebTours/images/cancelreservation.gif" in HTML "http://localhost:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26659]
+check.c(16): Found resource "http://localhost:1080/WebTours/images/cancelallreservations.gif" in HTML "http://localhost:1080/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26659]
+check.c(16): Registered web_reg_find successful for "TextPfx=09/01/17" and "TextSfx= leaves Sydney  for London." (count=3)  	[MsgId: MMSG-26363]
+check.c(16): Registered web_reg_find successful for "TextPfx=09/04/17" and "TextSfx= leaves London  for Sydney." (count=4)  	[MsgId: MMSG-26363]
+check.c(16): web_url("Itinerary") was successful, 524626 body bytes, 2507 header bytes, 1011 chunking overhead bytes  	[MsgId: MMSG-26385]
+Ending action check.
+Starting action printing_parametres.
+printing_parametres.c(3): userSession: 121837.412231673zczHAVVpiQVzzzzHDHzAcpAHVDf
+printing_parametres.c(4): outbound_flight: 823;2210;09/01/17
+printing_parametres.c(5): outbound_flight: 280;2701;09/04/17
+printing_parametres.c(6): first_name: Karl
+printing_parametres.c(7): last_name: Frank
+printing_parametres.c(8): address: Paris
+printing_parametres.c(9): credit_card_num: 4312
+printing_parametres.c(10): credit_card_exp_date: 05/20
+printing_parametres.c(11): seat_type: First
+printing_parametres.c(12): seat_pref: Window
+printing_parametres.c(13): url: http://localhost:1080/
+printing_parametres.c(14): depart_city: Sydney
+printing_parametres.c(15): depart_date: 09/01/17
+printing_parametres.c(16): arrive_city: London
+printing_parametres.c(17): return_date: 09/04/17
+Ending action printing_parametres.
+Ending iteration 2.
+Ending Vuser...
+Starting action vuser_end.
+vuser_end.c(4): Notify: Transaction "webtour_02_выход_с_аккаунта" started.
+vuser_end.c(5): Start transaction "webtour_02_выход_с_аккаунта" at: 11:47:37
+../../data/libs/logout.c(1): web_url("SignOff Button") started  	[MsgId: MMSG-26355]
+../../data/libs/logout.c(1): Detected non-resource "http://localhost:1080/cgi-bin/nav.pl?in=home" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+../../data/libs/logout.c(1): Detected non-resource "http://localhost:1080/WebTours/home.html" in "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
+../../data/libs/logout.c(1): Found resource "http://localhost:1080/WebTours/images/mer_login.gif" in HTML "http://localhost:1080/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+../../data/libs/logout.c(1): web_url("SignOff Button") was successful, 4216 body bytes, 1223 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+vuser_end.c(9): End transaction "webtour_02_выход_с_аккаунта" at: 11:47:37
+vuser_end.c(10): Notify: Transaction "webtour_02_выход_с_аккаунта" ended with a "Pass" status (Duration: 0.1590 Wasted Time: 0.0041).
+Ending action vuser_end.
+Vuser Terminated.

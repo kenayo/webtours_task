@@ -1,0 +1,103 @@
+28 11 1504083224 2 159484288 1548512021 1634164
+28 4 webtour_02_cashier_both_ways 5 1504083224 0 script_1_1 localhost 0 1
+28 10 localhost 21 0 0
+28 0 webtour_02_cashier_both_ways 5 1504083224 0 localhost 0
+28 8 webtour_02_cashier_both_ways 5  0 0
+28 2 webtour_02_cashier_both_ways 5 1504083224 0 p 0 0
+28 4 webtour_01_cashier_one_way 5 1504083236 0 scripts_1_1_1_1 localhost 0 1
+28 0 webtour_01_cashier_one_way 5 1504083236 0 localhost 0
+28 8 webtour_01_cashier_one_way 5  0 0
+28 2 webtour_01_cashier_one_way 5 1504083236 0 p 0 0
+28 4 webtour_02_cashier_both_ways 6 1504083248 0 script_1_1 localhost 0 1
+28 0 webtour_02_cashier_both_ways 6 1504083248 0 localhost 0
+28 8 webtour_02_cashier_both_ways 6  0 0
+28 2 webtour_02_cashier_both_ways 6 1504083248 0 p 0 0
+28 4 webtour_01_cashier_one_way 6 1504083260 0 scripts_1_1_1_1 localhost 0 1
+28 0 webtour_01_cashier_one_way 6 1504083260 0 localhost 0
+28 8 webtour_01_cashier_one_way 6  0 0
+28 2 webtour_01_cashier_one_way 6 1504083261 0 p 0 0
+28 4 webtour_02_cashier_both_ways 7 1504083272 0 script_1_1 localhost 0 1
+28 0 webtour_02_cashier_both_ways 7 1504083272 0 localhost 0
+28 8 webtour_02_cashier_both_ways 7  0 0
+28 2 webtour_02_cashier_both_ways 7 1504083272 0 p 0 0
+28 4 webtour_02_cashier_both_ways 8 1504083452 0 script_1_1 localhost 0 1
+28 0 webtour_02_cashier_both_ways 8 1504083453 0 localhost 0
+28 8 webtour_02_cashier_both_ways 8  0 0
+28 2 webtour_02_cashier_both_ways 8 1504083454 0 p 0 0
+28 4 webtour_01_cashier_one_way 7 1504083464 0 scripts_1_1_1_1 localhost 0 1
+28 0 webtour_01_cashier_one_way 7 1504083465 0 localhost 0
+28 8 webtour_01_cashier_one_way 7  0 0
+28 2 webtour_01_cashier_one_way 7 1504083465 0 p 0 0
+28 4 webtour_02_cashier_both_ways 9 1504083476 0 script_1_1 localhost 0 1
+28 0 webtour_02_cashier_both_ways 9 1504083477 0 localhost 0
+28 8 webtour_02_cashier_both_ways 9  0 0
+28 2 webtour_02_cashier_both_ways 9 1504083477 0 p 0 0
+28 4 webtour_01_cashier_one_way 8 1504083488 0 scripts_1_1_1_1 localhost 0 1
+28 0 webtour_01_cashier_one_way 8 1504083492 0 localhost 0
+28 8 webtour_01_cashier_one_way 8  0 0
+28 2 webtour_01_cashier_one_way 8 1504083492 0 p 0 0
+28 4 webtour_02_cashier_both_ways 14 1504083500 0 script_1_1 localhost 0 1
+28 0 webtour_02_cashier_both_ways 14 1504083501 0 localhost 0
+28 8 webtour_02_cashier_both_ways 14  0 0
+28 2 webtour_02_cashier_both_ways 14 1504083501 0 p 0 0
+28 4 webtour_02_cashier_both_ways 15 1504083680 0 script_1_1 localhost 0 1
+28 0 webtour_02_cashier_both_ways 15 1504083683 0 localhost 0
+28 8 webtour_02_cashier_both_ways 15  0 0
+28 2 webtour_02_cashier_both_ways 15 1504083683 0 p 0 0
+28 4 webtour_01_cashier_one_way 9 1504083692 0 scripts_1_1_1_1 localhost 0 1
+28 0 webtour_01_cashier_one_way 9 1504083701 0 localhost 0
+28 8 webtour_01_cashier_one_way 9  0 0
+28 2 webtour_01_cashier_one_way 9 1504083701 0 p 0 0
+28 4 webtour_02_cashier_both_ways 16 1504083704 0 script_1_1 localhost 0 1
+28 0 webtour_02_cashier_both_ways 16 1504083709 0 localhost 0
+28 8 webtour_02_cashier_both_ways 16  0 0
+28 2 webtour_02_cashier_both_ways 16 1504083709 0 p 0 0
+28 4 webtour_01_cashier_one_way 14 1504083716 0 scripts_1_1_1_1 localhost 0 1
+28 0 webtour_01_cashier_one_way 14 1504083721 0 localhost 0
+28 8 webtour_01_cashier_one_way 14  0 0
+28 2 webtour_01_cashier_one_way 14 1504083721 0 p 0 0
+28 4 webtour_02_cashier_both_ways 17 1504083728 0 script_1_1 localhost 0 1
+28 0 webtour_02_cashier_both_ways 17 1504083737 0 localhost 0
+28 8 webtour_02_cashier_both_ways 17  0 0
+28 2 webtour_02_cashier_both_ways 17 1504083737 0 p 0 0
+28 4 webtour_02_cashier_both_ways 18 1504083908 0 script_1_1 localhost 0 1
+28 0 webtour_02_cashier_both_ways 18 1504083914 0 localhost 0
+28 8 webtour_02_cashier_both_ways 18  0 0
+28 2 webtour_02_cashier_both_ways 18 1504083914 0 p 0 0
+28 4 webtour_01_cashier_one_way 15 1504083920 0 scripts_1_1_1_1 localhost 0 1
+28 0 webtour_01_cashier_one_way 15 1504083927 0 localhost 0
+28 8 webtour_01_cashier_one_way 15  0 0
+28 2 webtour_01_cashier_one_way 15 1504083927 0 p 0 0
+28 4 webtour_02_cashier_both_ways 20 1504083932 0 script_1_1 localhost 0 1
+28 0 webtour_02_cashier_both_ways 20 1504083939 0 localhost 0
+28 8 webtour_02_cashier_both_ways 20  0 0
+28 2 webtour_02_cashier_both_ways 20 1504083940 0 p 0 0
+28 4 webtour_01_cashier_one_way 16 1504083944 0 scripts_1_1_1_1 localhost 0 1
+28 0 webtour_01_cashier_one_way 16 1504083952 0 localhost 0
+28 8 webtour_01_cashier_one_way 16  0 0
+28 2 webtour_01_cashier_one_way 16 1504083952 0 p 0 0
+28 4 webtour_02_cashier_both_ways 24 1504083956 0 script_1_1 localhost 0 1
+28 0 webtour_02_cashier_both_ways 24 1504083967 0 localhost 0
+28 8 webtour_02_cashier_both_ways 24  0 0
+28 2 webtour_02_cashier_both_ways 24 1504083967 0 p 0 0
+28 1 webtour_02_cashier_both_ways 5 1504084154 0 2
+28 1 webtour_01_cashier_one_way 5 1504084158 0 2
+28 1 webtour_02_cashier_both_ways 6 1504084173 0 2
+28 1 webtour_01_cashier_one_way 6 1504084177 0 2
+28 1 webtour_02_cashier_both_ways 7 1504084199 0 2
+28 1 webtour_02_cashier_both_ways 8 1504084207 0 2
+28 1 webtour_01_cashier_one_way 7 1504084215 0 2
+28 1 webtour_02_cashier_both_ways 9 1504084222 0 2
+28 1 webtour_01_cashier_one_way 8 1504084237 0 2
+28 1 webtour_02_cashier_both_ways 14 1504084248 0 2
+28 1 webtour_02_cashier_both_ways 15 1504084261 0 2
+28 1 webtour_01_cashier_one_way 9 1504084273 0 2
+28 1 webtour_02_cashier_both_ways 16 1504084288 0 2
+28 1 webtour_01_cashier_one_way 14 1504084295 0 2
+28 1 webtour_02_cashier_both_ways 17 1504084307 0 2
+28 1 webtour_02_cashier_both_ways 18 1504084320 0 2
+28 1 webtour_01_cashier_one_way 15 1504084330 0 2
+28 1 webtour_02_cashier_both_ways 20 1504084341 0 2
+28 1 webtour_01_cashier_one_way 16 1504084354 0 2
+28 1 webtour_02_cashier_both_ways 24 1504084366 0 2
+28 12 1504084366 1 1504084366 0 1504084366

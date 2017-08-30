@@ -1,0 +1,2 @@
+[Hosts]
+localhost=E:\Users\Keanu\AppData\Local\Temp\res\localhost_1.eve

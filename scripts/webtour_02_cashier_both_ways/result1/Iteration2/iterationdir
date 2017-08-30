@@ -1,0 +1,8 @@
+[check]
+SnapshotIndex=I2_check
+[printing_parametres]
+SnapshotIndex=I2_printing_parametres
+[vuser_end]
+SnapshotIndex=I2_vuser_end
+[main_action]
+SnapshotIndex=I2_main_action

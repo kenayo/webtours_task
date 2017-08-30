@@ -26,8 +26,6 @@ vuser_init()
 	lr_output_message(lr_eval_string("End transaction \"{transaction_name}\" at: %s"), lr_eval_string("{time}"));
 	lr_end_transaction(lr_eval_string("{transaction_name}"), LR_AUTO);
 	
-	return 0;
-	
 	/* «аписать ip-адрес вузера и сообщить его.
 	 ≈сли ip-адреса нет, тоже сообщить об этом.*/
 	client_ip = lr_get_vuser_ip();
@@ -35,4 +33,6 @@ vuser_init()
 	     lr_output_message("ip-адрес: %s", client_ip);
 	else
 	     lr_output_message("ip-адрес не найден");
+	
+	return 0;
 }

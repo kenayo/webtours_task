@@ -1,0 +1,32 @@
+[
+    {
+        "transactionName": "webtour_02_01_выбор_рейса",
+        "rawStartTime": 1504082856341,
+        "rawEndTime": 1504082856629
+    },
+    {
+        "transactionName": "webtour_02_02_выбор_параметров_билета",
+        "rawStartTime": 1504082856636,
+        "rawEndTime": 1504082856821
+    },
+    {
+        "transactionName": "webtour_02_03_выбор_времени_вылета",
+        "rawStartTime": 1504082856822,
+        "rawEndTime": 1504082857021
+    },
+    {
+        "transactionName": "webtour_02_04_ввод_платежных_данных",
+        "rawStartTime": 1504082857021,
+        "rawEndTime": 1504082857220
+    },
+    {
+        "transactionName": "webtour_UC02_покупка_билета_в_одну_сторону",
+        "rawStartTime": 1504082856341,
+        "rawEndTime": 1504082857221
+    },
+    {
+        "transactionName": "webtour_02_выход_с_аккаунта",
+        "rawStartTime": 1504082857610,
+        "rawEndTime": 1504082857769
+    }
+]

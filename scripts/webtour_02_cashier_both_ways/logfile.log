@@ -1,0 +1,4 @@
+e:\users\keanu\work\webtour\scripts\webtour_02_cashier_both_ways\\pre_cci.c: vuser_init.c:33: warning: unreachable code
+e:\users\keanu\work\webtour\scripts\webtour_02_cashier_both_ways\\pre_cci.c: vuser_init.c:38: warning: missing return value
+e:\users\keanu\work\webtour\scripts\webtour_02_cashier_both_ways\\pre_cci.c: check.c:9: warning: unrecognized character escape sequence `\.'
+e:\users\keanu\work\webtour\scripts\webtour_02_cashier_both_ways\\pre_cci.c: check.c:13: warning: unrecognized character escape sequence `\.'

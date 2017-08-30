@@ -31,30 +31,22 @@
     <FileEntry Name="8655071544.idx" Filter="1" />
     <FileEntry Name="custom_body_variables.txt" Filter="1" />
     <FileEntry Name="data.zip" Filter="1" />
-    <FileEntry Name="date.dat" Filter="1" />
     <FileEntry Name="logfile.log" Filter="1" />
-    <FileEntry Name="login(1).dat" Filter="1" />
-    <FileEntry Name="login.dat" Filter="1" />
     <FileEntry Name="lrw_custom_body.h" Filter="1" />
+    <FileEntry Name="lr_clear_script.bat" Filter="1" />
     <FileEntry Name="mdrv.log" Filter="1" />
+    <FileEntry Name="mdrv1tW.879.log" Filter="1" />
+    <FileEntry Name="mdrvg1g.357.log" Filter="1" />
+    <FileEntry Name="mdrvHO7.189.log" Filter="1" />
     <FileEntry Name="mdrv_cmd.txt" Filter="1" />
-    <FileEntry Name="NewParam(1).dat" Filter="1" />
-    <FileEntry Name="NewParam(2).dat" Filter="1" />
-    <FileEntry Name="NewParam(3).dat" Filter="1" />
-    <FileEntry Name="NewParam(4).dat" Filter="1" />
-    <FileEntry Name="NewParam.dat" Filter="1" />
     <FileEntry Name="options.txt" Filter="1" />
-    <FileEntry Name="output.bak" Filter="1" />
     <FileEntry Name="output.txt" Filter="1" />
     <FileEntry Name="ThumbnailsCache.tmp" Filter="1" />
     <FileEntry Name="TransactionsData.db" Filter="1" />
-    <FileEntry Name="webtour_01_cashier_both_ways.prm.bak" Filter="1" />
-    <FileEntry Name="Webtour_01_cashier_one_way.prm.bak" Filter="1" />
     <FileEntry Name="webtour_02_cashier_both_ways.c.pickle" Filter="1" />
     <FileEntry Name="webtour_02_cashier_both_ways.ci" Filter="1" />
     <FileEntry Name="webtour_02_cashier_both_ways.prm.bak" Filter="1" />
     <FileEntry Name="webtour_02_cashier_both_ways.sdf" Filter="1" />
-    <FileEntry Name="data\" Filter="1" />
     <FileEntry Name="result1\" Filter="1" />
   </GeneralFiles>
 </VugenScriptMetadata>

@@ -1,0 +1,99 @@
+Failed to get information of process Id: 0
+Failed to get information of process Id: 4
+Failed to get information of process Id: 364
+Failed to get information of process Id: 484
+Failed to get information of process Id: 580
+Failed to get information of process Id: 596
+Failed to get information of process Id: 636
+Failed to get information of process Id: 652
+Failed to get information of process Id: 660
+Failed to get information of process Id: 760
+Failed to get information of process Id: 820
+Failed to get information of process Id: 912
+Failed to get information of process Id: 964
+Failed to get information of process Id: 280
+Failed to get information of process Id: 388
+Failed to get information of process Id: 448
+Failed to get information of process Id: 520
+Failed to get information of process Id: 656
+Failed to get information of process Id: 1184
+Failed to get information of process Id: 1392
+PROCESS 0x5c4       asldrsrv.exe
+PROCESS 0x608       gfnexsrv.exe
+PROCESS 0x62c       avastsvc.exe
+Failed to get information of process Id: 1688
+Failed to get information of process Id: 1740
+Failed to get information of process Id: 1868
+Failed to get information of process Id: 1976
+PROCESS 0x7dc       nvtelemetrycontainer.exe
+Failed to get information of process Id: 1276
+Failed to get information of process Id: 1488
+Failed to get information of process Id: 2120
+Failed to get information of process Id: 2144
+Failed to get information of process Id: 2152
+Failed to get information of process Id: 2292
+Failed to get information of process Id: 2328
+Failed to get information of process Id: 2336
+Failed to get information of process Id: 2344
+Failed to get information of process Id: 2352
+Failed to get information of process Id: 2360
+PROCESS 0x978       service_update.exe
+PROCESS 0xbac       nvservicesj.exe
+Failed to get information of process Id: 3240
+PROCESS 0xcb0       nvcontainer.exe
+Failed to get information of process Id: 3320
+Failed to get information of process Id: 3384
+PROCESS 0xd8c       atkosd.exe
+Failed to get information of process Id: 3512
+Failed to get information of process Id: 3520
+PROCESS 0xdf0       atkosd2.exe
+Failed to get information of process Id: 3640
+Failed to get information of process Id: 3664
+Failed to get information of process Id: 3700
+PROCESS 0xb64       avastui.exe
+Failed to get information of process Id: 3312
+PROCESS 0xd2c       steam.exe
+PROCESS 0xe1c       dmedia.exe
+PROCESS 0x120c      mshta.exe
+PROCESS 0x134c      cmd.exe
+Failed to get information of process Id: 5036
+PROCESS 0x1384      powershell.exe
+Failed to get information of process Id: 4752
+Failed to get information of process Id: 3156
+Failed to get information of process Id: 3276
+Failed to get information of process Id: 3180
+Failed to get information of process Id: 4684
+Failed to get information of process Id: 5012
+Failed to get information of process Id: 5000
+PROCESS 0x1138      nvidia web helper.exe
+Failed to get information of process Id: 4512
+Failed to get information of process Id: 5564
+Failed to get information of process Id: 6816
+PROCESS 0x1858      skype.exe
+Failed to get information of process Id: 6224
+PROCESS 0x1bb8      browser.exe
+PROCESS 0x1618      browser.exe
+PROCESS 0x139c      browser.exe
+PROCESS 0x1a88      browser.exe
+PROCESS 0x1f7c      browser.exe
+PROCESS 0x1e84      skypebrowserhost.exe
+PROCESS 0x2020      skypebrowserhost.exe
+Failed to get information of process Id: 2092
+Failed to get information of process Id: 5212
+Failed to get information of process Id: 8132
+Failed to get information of process Id: 1672
+PROCESS 0x2314      browser.exe
+Failed to get information of process Id: 1844
+PROCESS 0x1dfc      browser.exe
+Failed to get information of process Id: 8040
+Failed to get information of process Id: 264
+PROCESS 0x6a4       httpd.exe
+PROCESS 0x19a0      httpd.exe
+PROCESS 0x1b60      browser.exe
+Failed to get information of process Id: 6432
+PROCESS 0x1fe8      mshta.exe
+PROCESS 0x1bd4      mshta.exe
+PROCESS 0x1bfc      notepad++.exe
+PROCESS 0x9ac       browser.exe
+PROCESS 0xbe0       vugen.exe
+Failed to get information of process Id: 8600

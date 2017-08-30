@@ -1,0 +1,2 @@
+"username=user6&password=pass6&passwordConfirm=pass6&firstName=&lastName=&address1=&address2=&r"
+"egister.x=62&register.y=9"

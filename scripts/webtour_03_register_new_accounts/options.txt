@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IE:\Users\Keanu\work\webtour\scripts\webtour_03_register_new_accounts
+-IE:\Program Files (x86)\HP\LoadRunner\include
+-ee:\users\keanu\work\webtour\scripts\webtour_03_register_new_accounts\\logfile.log
+e:\users\keanu\work\webtour\scripts\webtour_03_register_new_accounts\\combined_webtour_03_register_new_accounts.c
+e:\users\keanu\work\webtour\scripts\webtour_03_register_new_accounts\\pre_cci.c

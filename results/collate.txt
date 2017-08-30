@@ -1,0 +1,5 @@
+[Diagnostics]
+Status=-1
+[Collate Recovery]
+Scenario=E:\Users\Keanu\work\webtour\scenarios\cashiers_plane_tickets.lrs
+Completed=0

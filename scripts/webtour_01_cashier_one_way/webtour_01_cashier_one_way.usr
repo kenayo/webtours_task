@@ -64,8 +64,8 @@ Order="webtour_UC01_покупка_билета_в_одну_сторону"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
-LastReplayedRunName=result1
-ActiveRunName=result1
+LastReplayedRunName=
+ActiveRunName=
 [Transactions]
 webtour_UC01_покупка_билета_в_одну_сторону=
 [ParameterSimulation]

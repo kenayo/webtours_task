@@ -1,0 +1,122 @@
+[API Trapper      (1cd4:11a4)] Recording in 32-bit mode: E:\Program Files (x86)\Internet Explorer\iexplore.exe
+[API Trapper      (1ca0:1a98)] Recording in 64-bit mode: E:\Program Files\Internet Explorer\IEXPLORE.EXE
+[API Trapper      (2150:1d4c)] Recording in 32-bit mode: E:\Program Files (x86)\Internet Explorer\IEXPLORE.EXE
+[Network Analyzer (2150:1cdc)] ------------------------------------------------------------------------------------------
+[Network Analyzer (2150:1cdc)] Load Network Traffic Analyzers:
+[Network Analyzer (2150:1cdc)]     Analyzer Module: QTWeb (value=GetWebSocketProtocolAnalyzer:WebSocketAnalyzer.dll)
+[Network Analyzer (2150:1cdc)]     + Network Analyzer: WebSocketAnalyzer.dll @ GetWebSocketProtocolAnalyzer Loaded!
+[Network Analyzer (2150:1cdc)] ------------------------------------------------------------------------------------------
+[Network Analyzer (2150: 1d8)] Address lookup for Keanu-ой = 192.168.1.45
+[Net An. Warning  (2150: d80)] Request Connection: Remote Server @ 0000:0000:0000:0000:0000:0000:0000:0001 - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (2150:1cdc)] Request Connection: Remote Server @ 0000:0000:0000:0000:0000:0000:0000:0001 - 1080 (Service=) Failed attempt #1. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (2150: d80)] Request Connection: Remote Server @ 0000:0000:0000:0000:0000:0000:0000:0001 - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (2150:1cdc)] Request Connection: Remote Server @ 0000:0000:0000:0000:0000:0000:0000:0001 - 1080 (Service=) Failed attempt #2. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (2150: d80)] Request Connection: Remote Server @ 0000:0000:0000:0000:0000:0000:0000:0001 - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Warning  (2150:1cdc)] Request Connection: Remote Server @ 0000:0000:0000:0000:0000:0000:0000:0001 - 1080 (Service=) Failed attempt #3. Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (2150: d80)] Request Connection: Remote Server @ 0000:0000:0000:0000:0000:0000:0000:0001 - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Net An. Error    (2150:1cdc)] Request Connection: Remote Server @ 0000:0000:0000:0000:0000:0000:0000:0001 - 1080  (Service=)  NOT PROXIED! (REASON: Unable to connect to remote server: rc = -1 , le = 10061)
+[Network Analyzer (2150: d80)] Address lookup for Keanu-ой = 192.168.1.45
+[Network Analyzer (2150:1cdc)] Address lookup for Keanu-ой = 192.168.1.45
+[Network Analyzer (2150: d80)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  1)  PROXIED!
+[Network Analyzer (2150: 1d8)]   (Sid:  1) Client -> Server @ : 258 bytes 
+[Network Analyzer (2150:1cdc)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  2)  PROXIED!
+[Network Analyzer (2150: 1d8)]   (Sid:  1) Server -> Client : 664 bytes 
+[WinInet Request  (2150:22f0)] GET "http://localhost:1080/WebTours"
+[Network Analyzer (2150: 1d8)]   (Sid:  1) Client -> Server @ : 311 bytes 
+[Network Analyzer (2150: 1d8)]   (Sid:  1) Server -> Client : 1007 bytes 
+[Network Analyzer (2150: 1d8)]   (Sid:  1) Client -> Server @ : 322 bytes 
+[Network Analyzer (2150: 1d8)]   (Sid:  1) Server -> Client : 1052 bytes 
+[WinInet Request  (2150:22f0)] GET "http://localhost:1080/WebTours/header.html"
+[WinInet Request  (2150:22f0)] GET "http://localhost:1080/cgi-bin/welcome.pl?signOff=true"
+[Network Analyzer (2150: 1d8)]   (Sid:  2) Client -> Server @ : 416 bytes 
+[Network Analyzer (2150: 1d8)]   (Sid:  2) Server -> Client : 899 bytes 
+[Network Analyzer (2150: 1d8)]   (Sid:  2) Client -> Server @ : 417 bytes 
+[WinInet Request  (2150:2260)] GET "http://localhost:1080/WebTours/images/hp_logo.png"
+[Network Analyzer (2150: 1d8)]   (Sid:  2) Server -> Client : 4486 bytes 
+[WinInet Request  (2150:1cdc)] GET "http://localhost:1080/WebTours/images/webtours.png"
+[Network Analyzer (2150: d80)] Address lookup for Keanu-ой = 192.168.1.45
+[Network Analyzer (2150: 1d8)]   (Sid:  1) Client -> Server @ : 409 bytes 
+[Network Analyzer (2150: 1d8)]   (Sid:  2) Client -> Server @ : 405 bytes 
+[Network Analyzer (2150: 1d8)]   (Sid:  2) Server -> Client : 1659 bytes 
+[Network Analyzer (2150: d80)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  3)  PROXIED!
+[Network Analyzer (2150:2260)] Address lookup for Keanu-ой = 192.168.1.45
+[Network Analyzer (2150:2260)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  4)  PROXIED!
+[WinInet Request  (2150:22f0)] GET "http://localhost:1080/WebTours/home.html"
+[Network Analyzer (2150: 1d8)]   (Sid:  1) Server -> Client : 1751 bytes 
+[Network Analyzer (2150: 1d8)]   (Sid:  1) Server -> Client : 5 bytes 
+[WinInet Request  (2150:22f0)] GET "http://localhost:1080/cgi-bin/nav.pl?in=home"
+[Network Analyzer (2150: 1d8)]   (Sid:  1) Client -> Server @ : 420 bytes 
+[Network Analyzer (2150: 1d8)]   (Sid:  1) Server -> Client : 976 bytes 
+[WinInet Request  (2150:2260)] GET "http://localhost:1080/WebTours/images/mer_login.gif"
+[Network Analyzer (2150: 1d8)]   (Sid:  1) Client -> Server @ : 276 bytes 
+[Network Analyzer (2150: 1d8)]   (Sid:  1) Server -> Client : 424 bytes 
+[WinInet Request  (2150:2260)] GET "http://localhost:1080/favicon.ico"
+[Network Analyzer (2150: 1d8)]   (Sid:  1) Client -> Server @ : 423 bytes 
+[Network Analyzer (2150: 1d8)]   (Sid:  1) Server -> Client : 2664 bytes 
+[WinInet Request  (2150:22f0)] GET "http://localhost:1080/cgi-bin/login.pl?username=&password=&getInfo=true"
+[Network Analyzer (2150: 1d8)]   (Sid:  1) Server -> Client : 5 bytes 
+[Network Analyzer (2150: 1d8)]   (Sid:  1) Client -> Server @ : 428 bytes 
+[Network Analyzer (2150: 1d8)]   (Sid:  2) Client -> Server @ : 449 bytes 
+[Network Analyzer (2150: 1d8)]   (Sid:  2) Server -> Client : 1055 bytes 
+[WinInet Request  (2150:2260)] GET "http://localhost:1080/WebTours/images/button_next.gif"
+[Network Analyzer (2150: 1d8)]   (Sid:  1) Server -> Client : 11601 bytes 
+[WinInet Request  (2150:2260)] GET "http://localhost:1080/WebTours/profileValidate.js"
+[Network Analyzer (2150: 1d8)]   (Sid:  2) Connection Terminated (by Server)
+[Network Analyzer (2150: 1d8)]   (Sid:  1) Connection Terminated (by Server)
+[Network Analyzer (2150: 1d8)]   (Sid:  3) Client -> Server @ : 642 bytes 
+[Network Analyzer (2150: 1d8)]   (Sid:  3) Server -> Client : 1432 bytes 
+[WinInet Request  (2150:22f0)] POST "http://localhost:1080/cgi-bin/login.pl"
+[Network Analyzer (2150: 1d8)]   (Sid:  3) Server -> Client : 5 bytes 
+[Network Analyzer (2150:2260)] Address lookup for Keanu-ой = 192.168.1.45
+[Network Analyzer (2150:2260)] Request Connection: Remote Server @ 93.184.221.200:443   (Service=)  (Sid=  5)  PROXIED!
+[Network Analyzer (2150: 1d8)]   (Sid:  3) Connection Terminated (by Server)
+[Network Analyzer (2150:16fc)]   (Sid:  5) Negotiate Proxy -> Server SSL Handshake (ssl:TLSv1.1, ciphers:ECDHE-RSA-AES128-SHA)
+[Network Analyzer (2150:16fc)]   (Sid:  5) Negotiate Client -> Proxy SSL Handshake (ssl:TLSv1.2, ciphers:AES128-SHA256)
+[Network Analyzer (2150: 1d8)]   (Sid:  4) Client -> Server @ : 713 bytes 
+[Network Analyzer (2150: 1d8)]   (Sid:  4) Server -> Client : 841 bytes 
+[WinInet Request  (2150:22f0)] POST "http://localhost:1080/cgi-bin/login.pl"
+[Network Analyzer (2150: 1d8)]   (Sid:  4) Server -> Client : 5 bytes 
+[Network Analyzer (2150: 1d8)]   (Sid:  4) Client -> Server @ : 508 bytes 
+[Network Analyzer (2150:10d4)] Address lookup for Keanu-ой = 192.168.1.45
+[Network Analyzer (2150:10d4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  6)  PROXIED!
+[Network Analyzer (2150: 1d8)]   (Sid:  4) Server -> Client : 1744 bytes 
+[Network Analyzer (2150: 1d8)]   (Sid:  6) Client -> Server @ : 503 bytes 
+[WinInet Request  (2150:22f0)] GET "http://localhost:1080/cgi-bin/nav.pl?page=menu&in=home"
+[Network Analyzer (2150: 1d8)]   (Sid:  4) Server -> Client : 5 bytes 
+[Network Analyzer (2150: 1d8)]   (Sid:  4) Client -> Server @ : 532 bytes 
+[Network Analyzer (2150:1cdc)] Address lookup for Keanu-ой = 192.168.1.45
+[Network Analyzer (2150: d80)] Address lookup for Keanu-ой = 192.168.1.45
+[Network Analyzer (2150:10d4)] Address lookup for Keanu-ой = 192.168.1.45
+[Network Analyzer (2150: d80)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  7)  PROXIED!
+[Network Analyzer (2150: 1d8)]   (Sid:  7) Client -> Server @ : 532 bytes 
+[Network Analyzer (2150: 1d8)]   (Sid:  7) Server -> Client : 986 bytes 
+[Network Analyzer (2150:10d4)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  8)  PROXIED!
+[WinInet Request  (2150: d80)] GET "http://localhost:1080/WebTours/images/in_home.gif"
+[Network Analyzer (2150: 1d8)]   (Sid:  4) Server -> Client : 1023 bytes 
+[Network Analyzer (2150: 1d8)]   (Sid:  4) Client -> Server @ : 532 bytes 
+[WinInet Request  (2150:22ec)] GET "http://localhost:1080/WebTours/images/flights.gif"
+[Network Analyzer (2150: 1d8)]   (Sid:  7) Client -> Server @ : 534 bytes 
+[Network Analyzer (2150:1cdc)] Request Connection: Remote Server @ 127.0.0.1:1080   (Service=)  (Sid=  9)  PROXIED!
+[Network Analyzer (2150: 1d8)]   (Sid:  4) Server -> Client : 1048 bytes 
+[Network Analyzer (2150: 1d8)]   (Sid:  7) Server -> Client : 1030 bytes 
+[WinInet Request  (2150: d80)] GET "http://localhost:1080/WebTours/images/signoff.gif"
+[WinInet Request  (2150:17f4)] GET "http://localhost:1080/WebTours/images/itinerary.gif"
+[Network Analyzer (2150: 1d8)]   (Sid:  6) Server -> Client : 1155 bytes 
+[Network Analyzer (2150: 1d8)]   (Sid:  6) Server -> Client : 5 bytes 
+[WinInet Request  (2150:22f0)] GET "http://localhost:1080/cgi-bin/login.pl?intro=true"
+[Network Analyzer (2150: fbc)] Address lookup for Keanu-ой = 192.168.1.45
+[Network Analyzer (2150: fbc)] Request Connection: Remote Server @ 104.18.54.167:80   (Service=)  (Sid= 10)  PROXIED!
+[Network Analyzer (2150: 1d8)]   (Sid:  6) Client -> Server @ : 520 bytes 
+[Network Analyzer (2150: 1d8)]   (Sid:  6) Server -> Client : 1066 bytes 
+[WinInet Request  (2150:22f0)] GET "http://localhost:1080/cgi-bin/welcome.pl?signOff=1"
+[Network Analyzer (2150: 1d8)]   (Sid:  6) Server -> Client : 5 bytes 
+[Network Analyzer (2150: 1d8)]   (Sid:  6) Client -> Server @ : 406 bytes 
+[WinInet Request  (2150:22f0)] GET "http://localhost:1080/WebTours/home.html"
+[Network Analyzer (2150: 1d8)]   (Sid:  6) Server -> Client : 1751 bytes 
+[WinInet Request  (2150:22f0)] GET "http://localhost:1080/cgi-bin/nav.pl?in=home"
+[Network Analyzer (2150: 1d8)]   (Sid:  6) Server -> Client : 5 bytes 
+[Network Analyzer (2150: 1d8)]   (Sid:  4) Connection Terminated (by Server)
+[Network Analyzer (2150: 1d8)]   (Sid:  7) Connection Terminated (by Server)
+[Network Analyzer (2150:17f4)] Address lookup for Keanu-ой = 192.168.1.45
+[Network Analyzer (2150:17f4)] Request Connection: Remote Server @ 93.184.221.200:80   (Service=)  (Sid= 11)  PROXIED!
+[Network Analyzer (2150: 1d8)]   (Sid:  6) Connection Terminated (by Server)

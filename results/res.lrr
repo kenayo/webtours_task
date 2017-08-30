@@ -1,0 +1,42 @@
+[Scenario]
+Product=HP LoadRunner Controller
+Version=12.53.0.0
+Path=E:\Users\Keanu\work\webtour\scenarios\cashiers_plane_tickets.lrs
+Subject=cashiers_plane_tickets
+Result_file=E:\Users\Keanu\AppData\Local\Temp\res\res.lrr
+Description=
+ResultName=res
+Time_Zone=-10800
+Start_time=1504083224
+Daylight_Bias=0
+Stop_time=1504084366
+
+[Configuration]
+Public_local=1
+Is_mix=1
+Is_runner_file=0
+Runner_file=
+
+[Running_mode]
+Start_reason=By command
+Stop_reason=By a user
+
+[Data Collection]
+FullData=1
+SummaryEnded=1
+
+[Scenario_summary]
+Scenario Type=Manual Scenario
+Goal Profile Name=Schedule 1
+Mode=Scenario Scheduling
+Scenario Duration=Start 5 Vusers: 1 every 00:00:12 (HH:MM:SS); Run for 00:03:00 (HH:MM:SS); Start 5 Vusers: 1 every 00:00:12 (HH:MM:SS); Run for 00:03:00 (HH:MM:SS); Start 5 Vusers: 1 every 00:00:12 (HH:MM:SS); Run for 00:03:00 (HH:MM:SS); Start 5 Vusers: 1 every 00:00:12 (HH:MM:SS); Run for 00:03:00 (HH:MM:SS); Stop 20 Vusers: 1 every 00:00:12 (HH:MM:SS)
+Load Behavior=Initialize each Vuser just before it runs
+
+[Scripts]
+script_1_1=E:\Users\Keanu\work\webtour\scripts\webtour_02_cashier_both_ways\webtour_02_cashier_both_ways.usr
+scripts_1_1_1_1=E:\Users\Keanu\work\webtour\scripts\webtour_01_cashier_one_way\webtour_01_cashier_one_way.usr
+
+[Scripts_types]
+script_1_1=Multi+QTWeb
+scripts_1_1_1_1=Multi+QTWeb
+

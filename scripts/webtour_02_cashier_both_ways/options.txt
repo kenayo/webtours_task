@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IE:\Users\Keanu\work\webtour\scripts\webtour_02_cashier_both_ways
+-IE:\Program Files (x86)\HP\LoadRunner\include
+-ee:\users\keanu\work\webtour\scripts\webtour_02_cashier_both_ways\\logfile.log
+e:\users\keanu\work\webtour\scripts\webtour_02_cashier_both_ways\\combined_webtour_02_cashier_both_ways.c
+e:\users\keanu\work\webtour\scripts\webtour_02_cashier_both_ways\\pre_cci.c
